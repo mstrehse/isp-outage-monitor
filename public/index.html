@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>ISP Outage Monitor</title>
+        <link href="/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mx-auto pt-10 pb-10">
+            <h1>ISP Outage Monitor</h1>
+
+            <p class="mt-5">
+                <div id="status-indicator">
+                    <div id="status-pending" class="items-center bg-orange text-white text-sm font-bold px-4 py-3" role="alert">
+                      <p>Status not sure, waiting for good data...</p>
+                    </div>
+                    <div id="status-online" class="hidden items-center bg-green text-white text-sm font-bold px-4 py-3" role="alert">
+                      <p>Online</p>
+                    </div>
+                    <div id="status-offline" class="hidden items-center bg-red text-white text-sm font-bold px-4 py-3" role="alert">
+                      <p>Offline</p>
+                    </div>
+                </div>
+            </p>
+
+            <!--
+                <div class="status">
+                    <span id="live-status">Offline</span>
+                </div>
+            -->
+
+            <table id="outages" class="table-auto mt-5" style="width: 100%;">
+                <thead style="border-bottom: 1px solid #aaa;">
+                    <tr>
+                        <th class="text-left pb-2">Date / Time</th>
+                        <th class="text-right pb-2">Duration (s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-left p-2">-</td>
+                        <td class="text-right p-2">-</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="pagination mt-10">
+                <span id="prev" class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded-full cursor-pointer">Prev</span>
+                <span id="next" class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded-full cursor-pointer float-right">Next</span>
+            </div>
+        </div>
+
+        <script src="/jquery.min.js"></script>
+        <script src="/app.js"></script>
+    </body>
+</html>
