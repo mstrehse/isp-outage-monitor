@@ -13,7 +13,7 @@ var express = require('express');
 var path = require('path');
 
 // CONFIGURATION
-var checkInterval = 1000;   // interval to check for connection loss
+var checkInterval = 5000;   // interval to check for connection loss
 var port = 8080;            // web interface port
 var limit = 10;            // api limit per page
 
