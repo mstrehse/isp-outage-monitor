@@ -17,12 +17,12 @@ sudo apt-get install -y nodejs
 
 Install PM2 to let the application run without you needed to be logged in:
 
-``bash
+```bash
 sudo npm install -g pm2
-``
+```
 
 Run the script in the background by:
 
-``bash
+```bash
 pm start ./index.js
-``
+```
