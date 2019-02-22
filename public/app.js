@@ -69,7 +69,7 @@
             $next.removeClass('hidden');
             $prev.removeClass('hidden');
 
-            if(page + 1 == pages){
+            if(page + 1 >= pages){
                 $next.addClass('hidden');
             }
 
