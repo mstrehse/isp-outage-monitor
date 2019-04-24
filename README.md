@@ -1,6 +1,6 @@
 # ISP Outage Monitor
 
-This little script gets you an overview how stable your internet connection is. It logs all outages and has a gui, so you can see of you have online connection and the datetime and duration of every outage.
+This little script gets you an overview how stable your internet connection is. It logs all outages and has a gui, so you can see if you have online connection and the datetime and duration of every outage.
 
 ## Installation on a Raspberry PI (Model B)
 
