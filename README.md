@@ -23,3 +23,7 @@ Run the script in the background by:
 ```bash
 nohup node .
 ```
+
+## I want to give you money!
+
+Feel free to buy me a coffee or and say something nice at https://www.buymeacoffee.com/maxman, so i can build more helpfull stuff in the future!
